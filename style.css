@@ -1,0 +1,62 @@
+body,
+.header {
+  font-family: Consolas,'Courier New', Courier, monospace;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: lightslategray;
+}
+
+.header {
+  width: 75vw;
+}
+
+h3 {
+  color: purple;
+}
+
+footer a {
+  text-decoration: none;
+  color: inherit;
+}
+
+th,
+td {
+  height: 16px;
+  border-radius: 6px;
+  padding: 10px;
+}
+
+table {
+  width: 85%;
+  border-spacing: 5px 5px;
+}
+
+th {
+  height: 24px;
+  height: 48px;
+}
+
+.col1 {
+  text-align: center;
+  vertical-align: top;
+}
+
+thead tr {
+  background-color: steelblue;
+  color: beige;
+  font-size: 1.2em;
+}
+
+tbody tr:nth-child(n) {
+  background-color: azure;
+}
+tbody tr:nth-child(2n) {
+  background-color: gainsboro;
+}
+
+footer {
+  padding: 40px 0;
+}
+
